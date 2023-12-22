@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default (element => {\n  const result = [];\n  let sibling = element.parentNode.firstElementChild;\n\n  while (sibling) {\n    if (sibling !== element) {\n      result.push(sibling);\n    }\n\n    sibling = sibling.nextElementSibling;\n  }\n\n  return result;\n});","map":null,"metadata":{},"sourceType":"module"}

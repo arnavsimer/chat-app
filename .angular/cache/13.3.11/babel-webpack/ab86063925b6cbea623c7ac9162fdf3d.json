@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { detectMobileOS, detectDesktopBrowser, browser, mobileOS, touch, msPointers, pointers, touchEnabled } from './support';\nexport { getter } from './accessors/getter';\nexport { setter } from './accessors/setter';","map":null,"metadata":{},"sourceType":"module"}

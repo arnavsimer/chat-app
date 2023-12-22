@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function pad(number, digits = 2, right = false) {\n  const count = digits - String(number).length;\n  let result = number;\n\n  if (count > 0) {\n    const padString = new Array(count + 1).join(\"0\");\n    result = right ? number + padString : padString + number;\n  }\n\n  return result;\n}","map":null,"metadata":{},"sourceType":"module"}

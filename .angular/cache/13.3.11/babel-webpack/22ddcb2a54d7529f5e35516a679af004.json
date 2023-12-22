@@ -1,0 +1,1 @@
+{"ast":null,"code":"/**\n * @hidden\n */\nexport const isWindowAvailable = () => {\n  return typeof window !== 'undefined';\n};","map":null,"metadata":{},"sourceType":"module"}

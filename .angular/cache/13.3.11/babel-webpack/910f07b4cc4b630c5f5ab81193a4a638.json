@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default function parseRangeDate(value) {\n  const parts = value.split('-');\n  const year = parseInt(parts[0], 10);\n  const month = parseInt(parts[1], 10) - 1;\n  const day = parseInt(parts[2], 10);\n  return new Date(year, month, day);\n}","map":null,"metadata":{},"sourceType":"module"}

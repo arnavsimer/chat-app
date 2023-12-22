@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const DAYS_OF_WEEK = [\"sun\", \"mon\", \"tue\", \"wed\", \"thu\", \"fri\", \"sat\"];\nexport const DEFAULT_TERRITORY = '001';","map":null,"metadata":{},"sourceType":"module"}

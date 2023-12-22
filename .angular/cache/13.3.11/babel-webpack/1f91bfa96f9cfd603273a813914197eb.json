@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default ((element, until) => {\n  const result = [];\n  let next = element.parentNode;\n\n  while (next) {\n    result.push(next);\n\n    if (next === until) {\n      break;\n    }\n\n    next = next.parentNode;\n  }\n\n  return result;\n});","map":null,"metadata":{},"sourceType":"module"}
